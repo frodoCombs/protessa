@@ -132,7 +132,7 @@ def perform_ssa(file_path,model,chain,cutoff=8):
     else:
         km2ss = {2:'C',0:'E',1:'H'}
         predictions = [km2ss[e] for e in km.predict(protein_features)]
-    print(predictions)
+    print(''.join(predictions))
 
 def main(args):
     if args.chain == "none":
