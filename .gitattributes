@@ -1,0 +1,4 @@
+27features_ER_PH_Kmeansk3_cluster.pkl filter=lfs diff=lfs merge=lfs -text
+27features_ER_PH_stride.pkl filter=lfs diff=lfs merge=lfs -text
+27features_ER_PH_author.pkl filter=lfs diff=lfs merge=lfs -text
+27features_ER_PH_dssp.pkl filter=lfs diff=lfs merge=lfs -text
